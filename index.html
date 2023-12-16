@@ -10,11 +10,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@100;400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script>
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC
@@ -27,13 +22,13 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 
-<body class="bg-white dark:bg-gray-600">
+<body class="bg-white dark:bg-gray-900">
     <!-- begin navbar -->
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <span
-                    class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Nathan.Portfolio</span>
+                    class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">Nathan.Portfolio</span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -49,18 +44,18 @@
                 <ul
                     class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                        <a href="#home"
+                            class="block py-2 px-3 text-white rounded md:bg-transparen md:p-0 dark:text-white hover:text-purple-700"
                             aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About
+                        <a href="#about"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-purple-700 md:dark:hover:bg-transparent">About
                         </a>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects
+                        <a href="#projecten"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-700 dark:hover:bg-gray-700 dark:hover:text-purple-700 md:dark:hover:bg-transparent">Projecten
                         </a>
                     </li>
                 </ul>
@@ -83,17 +78,17 @@
     <!-- end navbar -->
 
     <!-- hero -->
-    <section class="bg-white dark:bg-gray-900">
+    <section id="about" class="bg-white dark:bg-gray-900 mt-20">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
             <h1
                 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                Burgerschap Portfolio verkenning</h1>
-            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Hé daar!
+                Nathan's Burgerschap Portfolio</h1>
+            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Hallo!
                 Dit is mijn portfolio en hier showcase ik mijn projecten in het schoolvak Burgerschap. Kom wat meer te
                 leren door op mijn projecten te klikken!</p>
             <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                 <a href="#"
-                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 dark:text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">Zie
+                    class="hover:text-blue-500 inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 dark:text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">Zie
                     hier mijn
                     <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
@@ -103,44 +98,27 @@
                     </svg>
                 </a>
                 <a href="#"
-                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center hover:text-white text-gray-900 rounded-full border border-purple-500 hover:bg-purple-500 focus:ring-4 focus:ring-purple-500 dark:text-white dark:border-purple-700 dark:hover:bg-purple-700 dark:focus:ring-purple-700">
                     Projecten</a>
             </div>
         </div>
     </section>
     <!-- end hero -->
 
-    <!-- main content section -->
-    <section class="bg-white dark:bg-gray-900">
+    <!-- goal section -->
+    <section id="#about" class="bg-white dark:bg-gray-900 mt-20">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-            <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent
-                    the wheel</h2>
-                <p class="mb-4 font-poppins">We are strategists, designers and developers. Innovators and problem solvers. Small
-                    enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.
-                    Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you
-                    need.</p>
-                <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be
-                    simple and quick.</p>
+            <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Burgerschap <span class="typed"></span></h2>
+                <p class="mb-4">Hallo</p>
+                <p></p>
             </div>
             <div class="grid grid-cols-2 gap-4 mt-8">
-                <img class="w-full rounded-lg"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
-                    alt="office content 1">
-                <img class="mt-4 w-full lg:mt-10 rounded-lg"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
-                    alt="office content 2">
+                <img class="w-full rounded-lg flex justify-end" src="assests/Coding-2.webp" alt="office content 1">
             </div>
         </div>
     </section>
-    <!-- end main content section -->
-
-    <div class="bg-animation">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-        <div id="stars4"></div>
-    </div>
+    <!-- end goal content section -->
 
     <script src="script.js"></script>
 </body>

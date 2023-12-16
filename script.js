@@ -40,8 +40,8 @@ themeToggleBtn.addEventListener('click', function () {
 });
 
 var typed = new Typed('.typed', {
-    strings: ["verkenning", "reflectie", "verdieping", "verbreding"],
-    typeSpeed: 300,
-    showCursor: true,
-    backDelay: 2000,
+    strings: ["doelen", "wat wil ik bereiken"],
+    typeSpeed: 200,
+    showCursor: false,
+    loop: true,
 });
